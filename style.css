@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: square;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.menu-bg {
+    background: #4C6CDD;
+}
+
+.menu {
+    max-width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: #FFF;
+}
+
+li {
+    color: #3BEA57;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 20px;
+}
