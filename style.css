@@ -80,7 +80,11 @@ button {
     border: none;
 }
 
-li:hover, button:hover, img:hover {
+.menu-nav li:hover{
+    cursor: pointer;
+}
+
+button:hover, img:hover {
     cursor: pointer;
 }
 
@@ -153,6 +157,7 @@ button:hover {
     display: flex;
     justify-content: center;
     width: 100%;
+    padding: 20px;
 }
 
 .wrapper {
@@ -220,5 +225,47 @@ p {
     height: 530px;
     display: flex;
     flex-direction: column;
-    border-bottom: 10px solid var(--color-second);
+    border-bottom: 10px solid var(--color-first);
+}
+
+.project-itens {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+
+.firedlabs {
+    background-image: url('/Assets/img/firedlabs.png');
+    height: 280px;
+    width: 280px;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 0px var(--color-third);
+}
+
+.collabcode {
+    background-image: url('/Assets/img/collabcode.png');
+    height: 280px;
+    width: 280px;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 0px var(--color-third);
+}
+
+.portifolio {
+    background-image: url('/Assets/img/portifolio.png');
+    height: 280px;
+    width: 280px;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 0px var(--color-third);
+}
+
+.project a:hover {
+    cursor: pointer;
+}
+
+.sobre {
+    background: var(--color-second);
+    height: 790px;display: flex;
+    flex-direction: column;
+    border-bottom: 10px solid var(--color-black-first);
 }
