@@ -69,7 +69,7 @@ li {
     font-family: 'Pontano Sans', sans-serif;
 }
 
-button {
+.download, .contact {
     box-shadow:  5px 5px var(--color-black-first);
     background: var(--color-first);
     color: var(--color-third);
@@ -273,4 +273,34 @@ p {
     height: 790px;display: flex;
     flex-direction: column;
     border-bottom: 10px solid var(--color-black-first);
+}
+
+.about {
+    color: var(--color-third);
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Pontano Sans', sans-serif;
+    padding: 50px 80px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-style: normal;
+    line-height: 40px;
+}
+
+.buttons-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.arrow {
+    box-shadow: 5px 5px var(--color-black-first);
+    background: var(--color-first);
+    color: var(--color-third);
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
 }
