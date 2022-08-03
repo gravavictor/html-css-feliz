@@ -137,7 +137,7 @@ section {
     margin-top: 30px;
 }
 
-button:hover {
+.download:hover, .contact:hover {
     background-color: var(--color-black-third);
 }
 
@@ -283,7 +283,6 @@ p {
     padding: 50px 80px;
     box-sizing: border-box;
     text-align: justify;
-    font-style: normal;
     line-height: 40px;
 }
 
@@ -303,4 +302,26 @@ p {
     font-size: 20px;
     font-weight: 800;
     border: none;
+}
+
+.left::before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 15px solid transparent;
+    border-right: 28px solid var(--color-third);
+    box-sizing: border-box;
+    transform: translateX(-4px);
+}
+
+.right::before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 15px solid transparent;
+    border-left:  28px solid var(--color-third);
+    box-sizing: border-box;
+    transform: translateX(14px);
 }
